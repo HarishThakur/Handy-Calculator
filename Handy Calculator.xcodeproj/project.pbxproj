@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DDE80231BD660EB00A6D266 /* backImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE80211BD660EB00A6D266 /* backImage.jpg */; };
+		7DDE802C1BD6728D00A6D266 /* calc-ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE802B1BD6728D00A6D266 /* calc-ios.png */; };
+		7DE5ADB11BD5142700DBBB00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5ADB01BD5142700DBBB00 /* main.m */; };
+		7DE5ADB41BD5142700DBBB00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5ADB31BD5142700DBBB00 /* AppDelegate.m */; };
+		7DE5ADB71BD5142700DBBB00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5ADB61BD5142700DBBB00 /* ViewController.m */; };
+		7DE5ADBA1BD5142700DBBB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADB81BD5142700DBBB00 /* Main.storyboard */; };
+		7DE5ADBC1BD5142700DBBB00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADBB1BD5142700DBBB00 /* Images.xcassets */; };
+		7DE5ADBF1BD5142700DBBB00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADBD1BD5142700DBBB00 /* LaunchScreen.xib */; };
+		7DE5ADCB1BD5142700DBBB00 /* Handy_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5ADCA1BD5142700DBBB00 /* Handy_CalculatorTests.m */; };
+		7DE5ADE81BD5185F00DBBB00 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD51BD5185F00DBBB00 /* Clear.png */; };
+		7DE5ADE91BD5185F00DBBB00 /* divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD61BD5185F00DBBB00 /* divide.png */; };
+		7DE5ADEA1BD5185F00DBBB00 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD71BD5185F00DBBB00 /* dot.png */; };
+		7DE5ADEB1BD5185F00DBBB00 /* equal to.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD81BD5185F00DBBB00 /* equal to.png */; };
+		7DE5ADEC1BD5185F00DBBB00 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD91BD5185F00DBBB00 /* minus.png */; };
+		7DE5ADED1BD5185F00DBBB00 /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDA1BD5185F00DBBB00 /* multiply.png */; };
+		7DE5ADEE1BD5185F00DBBB00 /* number-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDB1BD5185F00DBBB00 /* number-0.png */; };
+		7DE5ADEF1BD5185F00DBBB00 /* number-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDC1BD5185F00DBBB00 /* number-1.png */; };
+		7DE5ADF01BD5185F00DBBB00 /* number-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDD1BD5185F00DBBB00 /* number-2.png */; };
+		7DE5ADF11BD5185F00DBBB00 /* number-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDE1BD5185F00DBBB00 /* number-3.png */; };
+		7DE5ADF21BD5185F00DBBB00 /* number-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDF1BD5185F00DBBB00 /* number-4.png */; };
+		7DE5ADF31BD5185F00DBBB00 /* number-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE01BD5185F00DBBB00 /* number-5.png */; };
+		7DE5ADF41BD5185F00DBBB00 /* number-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE11BD5185F00DBBB00 /* number-6.png */; };
+		7DE5ADF51BD5185F00DBBB00 /* number-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE21BD5185F00DBBB00 /* number-7.png */; };
+		7DE5ADF61BD5185F00DBBB00 /* number-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE31BD5185F00DBBB00 /* number-8.png */; };
+		7DE5ADF71BD5185F00DBBB00 /* number-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE41BD5185F00DBBB00 /* number-9.png */; };
+		7DE5ADF81BD5185F00DBBB00 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE51BD5185F00DBBB00 /* plus.png */; };
+		7DE5ADF91BD5185F00DBBB00 /* plus-minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE61BD5185F00DBBB00 /* plus-minus.png */; };
+		7DE5ADFB1BD51CB200DBBB00 /* percent.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADFA1BD51CB200DBBB00 /* percent.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DE5ADC51BD5142700DBBB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE5ADA31BD5142700DBBB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE5ADAA1BD5142700DBBB00;
+			remoteInfo = "Handy Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DDE80211BD660EB00A6D266 /* backImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backImage.jpg; path = ../../../../Downloads/backImage.jpg; sourceTree = "<group>"; };
+		7DDE802B1BD6728D00A6D266 /* calc-ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calc-ios.png"; path = "../../../../Downloads/calc-ios.png"; sourceTree = "<group>"; };
+		7DE5ADAB1BD5142700DBBB00 /* Handy Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handy Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE5ADAF1BD5142700DBBB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE5ADB01BD5142700DBBB00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DE5ADB21BD5142700DBBB00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DE5ADB31BD5142700DBBB00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DE5ADB51BD5142700DBBB00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DE5ADB61BD5142700DBBB00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DE5ADB91BD5142700DBBB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DE5ADBB1BD5142700DBBB00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DE5ADBE1BD5142700DBBB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7DE5ADC41BD5142700DBBB00 /* Handy CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handy CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE5ADC91BD5142700DBBB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE5ADCA1BD5142700DBBB00 /* Handy_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handy_CalculatorTests.m; sourceTree = "<group>"; };
+		7DE5ADD51BD5185F00DBBB00 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Clear.png; path = ../../../../Downloads/Clear.png; sourceTree = "<group>"; };
+		7DE5ADD61BD5185F00DBBB00 /* divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = divide.png; path = ../../../../Downloads/divide.png; sourceTree = "<group>"; };
+		7DE5ADD71BD5185F00DBBB00 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dot.png; path = ../../../../Downloads/dot.png; sourceTree = "<group>"; };
+		7DE5ADD81BD5185F00DBBB00 /* equal to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "equal to.png"; path = "../../../../Downloads/equal to.png"; sourceTree = "<group>"; };
+		7DE5ADD91BD5185F00DBBB00 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minus.png; path = ../../../../Downloads/minus.png; sourceTree = "<group>"; };
+		7DE5ADDA1BD5185F00DBBB00 /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multiply.png; path = ../../../../Downloads/multiply.png; sourceTree = "<group>"; };
+		7DE5ADDB1BD5185F00DBBB00 /* number-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-0.png"; path = "../../../../Downloads/number-0.png"; sourceTree = "<group>"; };
+		7DE5ADDC1BD5185F00DBBB00 /* number-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-1.png"; path = "../../../../Downloads/number-1.png"; sourceTree = "<group>"; };
+		7DE5ADDD1BD5185F00DBBB00 /* number-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-2.png"; path = "../../../../Downloads/number-2.png"; sourceTree = "<group>"; };
+		7DE5ADDE1BD5185F00DBBB00 /* number-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-3.png"; path = "../../../../Downloads/number-3.png"; sourceTree = "<group>"; };
+		7DE5ADDF1BD5185F00DBBB00 /* number-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-4.png"; path = "../../../../Downloads/number-4.png"; sourceTree = "<group>"; };
+		7DE5ADE01BD5185F00DBBB00 /* number-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-5.png"; path = "../../../../Downloads/number-5.png"; sourceTree = "<group>"; };
+		7DE5ADE11BD5185F00DBBB00 /* number-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-6.png"; path = "../../../../Downloads/number-6.png"; sourceTree = "<group>"; };
+		7DE5ADE21BD5185F00DBBB00 /* number-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-7.png"; path = "../../../../Downloads/number-7.png"; sourceTree = "<group>"; };
+		7DE5ADE31BD5185F00DBBB00 /* number-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-8.png"; path = "../../../../Downloads/number-8.png"; sourceTree = "<group>"; };
+		7DE5ADE41BD5185F00DBBB00 /* number-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-9.png"; path = "../../../../Downloads/number-9.png"; sourceTree = "<group>"; };
+		7DE5ADE51BD5185F00DBBB00 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../../../../Downloads/plus.png; sourceTree = "<group>"; };
+		7DE5ADE61BD5185F00DBBB00 /* plus-minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus-minus.png"; path = "../../../../Downloads/plus-minus.png"; sourceTree = "<group>"; };
+		7DE5ADFA1BD51CB200DBBB00 /* percent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = percent.png; path = ../../../../Downloads/percent.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DE5ADA81BD5142700DBBB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5ADC11BD5142700DBBB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DE5ADA21BD5142700DBBB00 = {
+			isa = PBXGroup;
+			children = (
+				7DE5ADAD1BD5142700DBBB00 /* Handy Calculator */,
+				7DE5ADC71BD5142700DBBB00 /* Handy CalculatorTests */,
+				7DE5ADAC1BD5142700DBBB00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE5ADAC1BD5142700DBBB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5ADAB1BD5142700DBBB00 /* Handy Calculator.app */,
+				7DE5ADC41BD5142700DBBB00 /* Handy CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DE5ADAD1BD5142700DBBB00 /* Handy Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5ADB21BD5142700DBBB00 /* AppDelegate.h */,
+				7DE5ADB31BD5142700DBBB00 /* AppDelegate.m */,
+				7DE5ADB51BD5142700DBBB00 /* ViewController.h */,
+				7DE5ADB61BD5142700DBBB00 /* ViewController.m */,
+				7DE5ADB81BD5142700DBBB00 /* Main.storyboard */,
+				7DE5ADBB1BD5142700DBBB00 /* Images.xcassets */,
+				7DE5ADBD1BD5142700DBBB00 /* LaunchScreen.xib */,
+				7DE5ADAE1BD5142700DBBB00 /* Supporting Files */,
+			);
+			path = "Handy Calculator";
+			sourceTree = "<group>";
+		};
+		7DE5ADAE1BD5142700DBBB00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5ADAF1BD5142700DBBB00 /* Info.plist */,
+				7DE5ADB01BD5142700DBBB00 /* main.m */,
+				7DDE80211BD660EB00A6D266 /* backImage.jpg */,
+				7DDE802B1BD6728D00A6D266 /* calc-ios.png */,
+				7DE5ADD51BD5185F00DBBB00 /* Clear.png */,
+				7DE5ADD61BD5185F00DBBB00 /* divide.png */,
+				7DE5ADD71BD5185F00DBBB00 /* dot.png */,
+				7DE5ADD81BD5185F00DBBB00 /* equal to.png */,
+				7DE5ADD91BD5185F00DBBB00 /* minus.png */,
+				7DE5ADDA1BD5185F00DBBB00 /* multiply.png */,
+				7DE5ADDB1BD5185F00DBBB00 /* number-0.png */,
+				7DE5ADDC1BD5185F00DBBB00 /* number-1.png */,
+				7DE5ADDD1BD5185F00DBBB00 /* number-2.png */,
+				7DE5ADDE1BD5185F00DBBB00 /* number-3.png */,
+				7DE5ADDF1BD5185F00DBBB00 /* number-4.png */,
+				7DE5ADE01BD5185F00DBBB00 /* number-5.png */,
+				7DE5ADE11BD5185F00DBBB00 /* number-6.png */,
+				7DE5ADE21BD5185F00DBBB00 /* number-7.png */,
+				7DE5ADE31BD5185F00DBBB00 /* number-8.png */,
+				7DE5ADE41BD5185F00DBBB00 /* number-9.png */,
+				7DE5ADFA1BD51CB200DBBB00 /* percent.png */,
+				7DE5ADE51BD5185F00DBBB00 /* plus.png */,
+				7DE5ADE61BD5185F00DBBB00 /* plus-minus.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DE5ADC71BD5142700DBBB00 /* Handy CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5ADCA1BD5142700DBBB00 /* Handy_CalculatorTests.m */,
+				7DE5ADC81BD5142700DBBB00 /* Supporting Files */,
+			);
+			path = "Handy CalculatorTests";
+			sourceTree = "<group>";
+		};
+		7DE5ADC81BD5142700DBBB00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5ADC91BD5142700DBBB00 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DE5ADAA1BD5142700DBBB00 /* Handy Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE5ADCE1BD5142700DBBB00 /* Build configuration list for PBXNativeTarget "Handy Calculator" */;
+			buildPhases = (
+				7DE5ADA71BD5142700DBBB00 /* Sources */,
+				7DE5ADA81BD5142700DBBB00 /* Frameworks */,
+				7DE5ADA91BD5142700DBBB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handy Calculator";
+			productName = "Handy Calculator";
+			productReference = 7DE5ADAB1BD5142700DBBB00 /* Handy Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DE5ADC31BD5142700DBBB00 /* Handy CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE5ADD11BD5142700DBBB00 /* Build configuration list for PBXNativeTarget "Handy CalculatorTests" */;
+			buildPhases = (
+				7DE5ADC01BD5142700DBBB00 /* Sources */,
+				7DE5ADC11BD5142700DBBB00 /* Frameworks */,
+				7DE5ADC21BD5142700DBBB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE5ADC61BD5142700DBBB00 /* PBXTargetDependency */,
+			);
+			name = "Handy CalculatorTests";
+			productName = "Handy CalculatorTests";
+			productReference = 7DE5ADC41BD5142700DBBB00 /* Handy CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DE5ADA31BD5142700DBBB00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Sourcebits Technologies";
+				TargetAttributes = {
+					7DE5ADAA1BD5142700DBBB00 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7DE5ADC31BD5142700DBBB00 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7DE5ADAA1BD5142700DBBB00;
+					};
+				};
+			};
+			buildConfigurationList = 7DE5ADA61BD5142700DBBB00 /* Build configuration list for PBXProject "Handy Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DE5ADA21BD5142700DBBB00;
+			productRefGroup = 7DE5ADAC1BD5142700DBBB00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE5ADAA1BD5142700DBBB00 /* Handy Calculator */,
+				7DE5ADC31BD5142700DBBB00 /* Handy CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DE5ADA91BD5142700DBBB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDE802C1BD6728D00A6D266 /* calc-ios.png in Resources */,
+				7DDE80231BD660EB00A6D266 /* backImage.jpg in Resources */,
+				7DE5ADBA1BD5142700DBBB00 /* Main.storyboard in Resources */,
+				7DE5ADEA1BD5185F00DBBB00 /* dot.png in Resources */,
+				7DE5ADF11BD5185F00DBBB00 /* number-3.png in Resources */,
+				7DE5ADEC1BD5185F00DBBB00 /* minus.png in Resources */,
+				7DE5ADEB1BD5185F00DBBB00 /* equal to.png in Resources */,
+				7DE5ADF81BD5185F00DBBB00 /* plus.png in Resources */,
+				7DE5ADF91BD5185F00DBBB00 /* plus-minus.png in Resources */,
+				7DE5ADBF1BD5142700DBBB00 /* LaunchScreen.xib in Resources */,
+				7DE5ADF41BD5185F00DBBB00 /* number-6.png in Resources */,
+				7DE5ADE91BD5185F00DBBB00 /* divide.png in Resources */,
+				7DE5ADEE1BD5185F00DBBB00 /* number-0.png in Resources */,
+				7DE5ADBC1BD5142700DBBB00 /* Images.xcassets in Resources */,
+				7DE5ADF71BD5185F00DBBB00 /* number-9.png in Resources */,
+				7DE5ADED1BD5185F00DBBB00 /* multiply.png in Resources */,
+				7DE5ADF31BD5185F00DBBB00 /* number-5.png in Resources */,
+				7DE5ADF21BD5185F00DBBB00 /* number-4.png in Resources */,
+				7DE5ADF61BD5185F00DBBB00 /* number-8.png in Resources */,
+				7DE5ADFB1BD51CB200DBBB00 /* percent.png in Resources */,
+				7DE5ADEF1BD5185F00DBBB00 /* number-1.png in Resources */,
+				7DE5ADE81BD5185F00DBBB00 /* Clear.png in Resources */,
+				7DE5ADF51BD5185F00DBBB00 /* number-7.png in Resources */,
+				7DE5ADF01BD5185F00DBBB00 /* number-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5ADC21BD5142700DBBB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DE5ADA71BD5142700DBBB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE5ADB71BD5142700DBBB00 /* ViewController.m in Sources */,
+				7DE5ADB41BD5142700DBBB00 /* AppDelegate.m in Sources */,
+				7DE5ADB11BD5142700DBBB00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5ADC01BD5142700DBBB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE5ADCB1BD5142700DBBB00 /* Handy_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DE5ADC61BD5142700DBBB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DE5ADAA1BD5142700DBBB00 /* Handy Calculator */;
+			targetProxy = 7DE5ADC51BD5142700DBBB00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DE5ADB81BD5142700DBBB00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE5ADB91BD5142700DBBB00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DE5ADBD1BD5142700DBBB00 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE5ADBE1BD5142700DBBB00 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DE5ADCC1BD5142700DBBB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DE5ADCD1BD5142700DBBB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DE5ADCF1BD5142700DBBB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Handy Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DE5ADD01BD5142700DBBB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Handy Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DE5ADD21BD5142700DBBB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Handy CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handy Calculator.app/Handy Calculator";
+			};
+			name = Debug;
+		};
+		7DE5ADD31BD5142700DBBB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Handy CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handy Calculator.app/Handy Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DE5ADA61BD5142700DBBB00 /* Build configuration list for PBXProject "Handy Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE5ADCC1BD5142700DBBB00 /* Debug */,
+				7DE5ADCD1BD5142700DBBB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE5ADCE1BD5142700DBBB00 /* Build configuration list for PBXNativeTarget "Handy Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE5ADCF1BD5142700DBBB00 /* Debug */,
+				7DE5ADD01BD5142700DBBB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE5ADD11BD5142700DBBB00 /* Build configuration list for PBXNativeTarget "Handy CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE5ADD21BD5142700DBBB00 /* Debug */,
+				7DE5ADD31BD5142700DBBB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DE5ADA31BD5142700DBBB00 /* Project object */;
+}

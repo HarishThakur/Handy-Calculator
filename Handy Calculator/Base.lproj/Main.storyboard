@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="52C-Oo-dMO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Handy Calculator-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brp-A2-GKx">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.68045065490381074" blue="0.22627207606500421" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.97263591019999995" green="0.98964251889999999" blue="0.98543784020000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="203" width="344" height="48"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lJ-It-2js">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Clear.png"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="301" width="85" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToClear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bpu-P3-49g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQZ-3M-OJw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="percent.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="302" width="87" height="42"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToCalculatePercentage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xO5-ee-nvO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhH-oy-Rte">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="plus-minus.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="301" width="85" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToMakeNumberPostiveNegative:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nEy-1s-l3b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y54-9q-y8V">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="divide.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="276" y="302" width="85" height="42"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToCalculateDivision:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Dn3-hk-21W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Len-4m-kna">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-7.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="345" width="85" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber7:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3t1-ex-8CS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clZ-ks-q8f">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-8.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="345" width="84" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber8:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="liW-Vk-7kJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4i-JE-Hhn">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-9.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="344" width="87" height="45"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber9:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uht-rs-81f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klA-Vy-KjF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="multiply.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="276" y="345" width="85" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToCalculateMultiplication:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hsO-UA-Fdt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QzU-NJ-9RM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-4.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="388" width="85" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gxk-Ct-tMA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0G-lu-P1d">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-5.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="388" width="84" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ktd-tl-jkO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3I-Mu-06y">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-6.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="388" width="87" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber6:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OhL-ci-gBN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3D1-Rn-2dl">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="minus.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="276" y="389" width="85" height="42"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToCalculateSubtraction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yKA-WY-51F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKY-5O-JLv">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-2.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="432" width="84" height="44"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uoM-vC-xe6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkJ-Ng-bZS">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-3.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="432" width="87" height="44"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="a36-DJ-vc6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HpX-iI-PSb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="plus.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="276" y="432" width="85" height="44"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToCalculateAddition:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GO8-NC-zhR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgS-Nx-yco">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="dot.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="477" width="87" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterDot:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Hcn-YY-KfJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAH-h7-l4j">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="equal to.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="276" y="477" width="85" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToShowOutput:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8cv-cC-a0j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Om7-rg-ljM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-0.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="477" width="170" height="44"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber0:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="u1X-gJ-Yj4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="po1-67-WIa">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="number-1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="431" width="85" height="45"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonToEnterNumber1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qvf-A0-glq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="brp-A2-GKx"/>
+                                <exclude reference="3lJ-It-2js"/>
+                                <exclude reference="NQZ-3M-OJw"/>
+                                <exclude reference="NhH-oy-Rte"/>
+                                <exclude reference="y54-9q-y8V"/>
+                                <exclude reference="Len-4m-kna"/>
+                                <exclude reference="clZ-ks-q8f"/>
+                                <exclude reference="O4i-JE-Hhn"/>
+                                <exclude reference="klA-Vy-KjF"/>
+                                <exclude reference="QzU-NJ-9RM"/>
+                                <exclude reference="X0G-lu-P1d"/>
+                                <exclude reference="m3I-Mu-06y"/>
+                                <exclude reference="3D1-Rn-2dl"/>
+                                <exclude reference="kKY-5O-JLv"/>
+                                <exclude reference="MkJ-Ng-bZS"/>
+                                <exclude reference="HpX-iI-PSb"/>
+                                <exclude reference="XgS-Nx-yco"/>
+                                <exclude reference="kAH-h7-l4j"/>
+                                <exclude reference="Om7-rg-ljM"/>
+                                <exclude reference="po1-67-WIa"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="brp-A2-GKx"/>
+                                <include reference="3lJ-It-2js"/>
+                                <include reference="NQZ-3M-OJw"/>
+                                <include reference="NhH-oy-Rte"/>
+                                <include reference="y54-9q-y8V"/>
+                                <include reference="Len-4m-kna"/>
+                                <include reference="clZ-ks-q8f"/>
+                                <include reference="O4i-JE-Hhn"/>
+                                <include reference="klA-Vy-KjF"/>
+                                <include reference="QzU-NJ-9RM"/>
+                                <include reference="X0G-lu-P1d"/>
+                                <include reference="m3I-Mu-06y"/>
+                                <include reference="3D1-Rn-2dl"/>
+                                <include reference="kKY-5O-JLv"/>
+                                <include reference="MkJ-Ng-bZS"/>
+                                <include reference="HpX-iI-PSb"/>
+                                <include reference="XgS-Nx-yco"/>
+                                <include reference="kAH-h7-l4j"/>
+                                <include reference="Om7-rg-ljM"/>
+                                <include reference="po1-67-WIa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Handy Calculator" id="mRt-aS-bNV">
+                        <attributedString key="userComments">
+                            <fragment content="Test">
+                                <attributes>
+                                    <font key="NSFont" metaFont="smallSystem"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="labelForCalculation" destination="brp-A2-GKx" id="ykV-Qt-Ffn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1221.75" y="417.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tsq-vK-RO6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="52C-Oo-dMO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KQ9-vI-2Lo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="mOL-t0-VQv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKJ-VJ-saG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="418"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Clear.png" width="133" height="65"/>
+        <image name="divide.png" width="130" height="64"/>
+        <image name="dot.png" width="130" height="64"/>
+        <image name="equal to.png" width="130" height="64"/>
+        <image name="minus.png" width="130" height="64"/>
+        <image name="multiply.png" width="130" height="64"/>
+        <image name="number-0.png" width="267" height="64"/>
+        <image name="number-1.png" width="130" height="64"/>
+        <image name="number-2.png" width="130" height="64"/>
+        <image name="number-3.png" width="130" height="64"/>
+        <image name="number-4.png" width="130" height="64"/>
+        <image name="number-5.png" width="130" height="64"/>
+        <image name="number-6.png" width="130" height="64"/>
+        <image name="number-7.png" width="130" height="64"/>
+        <image name="number-8.png" width="130" height="64"/>
+        <image name="number-9.png" width="130" height="64"/>
+        <image name="percent.png" width="131" height="64"/>
+        <image name="plus-minus.png" width="133" height="65"/>
+        <image name="plus.png" width="130" height="64"/>
+    </resources>
+</document>
