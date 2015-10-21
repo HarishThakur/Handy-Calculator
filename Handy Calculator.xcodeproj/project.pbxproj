@@ -7,8 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7DDE80231BD660EB00A6D266 /* backImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE80211BD660EB00A6D266 /* backImage.jpg */; };
-		7DDE802C1BD6728D00A6D266 /* calc-ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE802B1BD6728D00A6D266 /* calc-ios.png */; };
+		7D6CD1321BD797BD00A33598 /* backImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD11E1BD797BD00A33598 /* backImage.jpg */; };
+		7D6CD1331BD797BD00A33598 /* calc-ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD11F1BD797BD00A33598 /* calc-ios.png */; };
+		7D6CD1341BD797BD00A33598 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1201BD797BD00A33598 /* Clear.png */; };
+		7D6CD1351BD797BD00A33598 /* divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1211BD797BD00A33598 /* divide.png */; };
+		7D6CD1361BD797BD00A33598 /* equal to.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1221BD797BD00A33598 /* equal to.png */; };
+		7D6CD1371BD797BD00A33598 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1231BD797BD00A33598 /* minus.png */; };
+		7D6CD1381BD797BD00A33598 /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1241BD797BD00A33598 /* multiply.png */; };
+		7D6CD1391BD797BD00A33598 /* number-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1251BD797BD00A33598 /* number-0.png */; };
+		7D6CD13A1BD797BD00A33598 /* number-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1261BD797BD00A33598 /* number-1.png */; };
+		7D6CD13B1BD797BD00A33598 /* number-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1271BD797BD00A33598 /* number-2.png */; };
+		7D6CD13C1BD797BD00A33598 /* number-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1281BD797BD00A33598 /* number-3.png */; };
+		7D6CD13D1BD797BD00A33598 /* number-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1291BD797BD00A33598 /* number-4.png */; };
+		7D6CD13E1BD797BD00A33598 /* number-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD12A1BD797BD00A33598 /* number-5.png */; };
+		7D6CD13F1BD797BD00A33598 /* number-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD12B1BD797BD00A33598 /* number-6.png */; };
+		7D6CD1401BD797BD00A33598 /* number-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD12C1BD797BD00A33598 /* number-7.png */; };
+		7D6CD1411BD797BD00A33598 /* number-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD12D1BD797BD00A33598 /* number-8.png */; };
+		7D6CD1421BD797BD00A33598 /* number-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD12E1BD797BD00A33598 /* number-9.png */; };
+		7D6CD1431BD797BD00A33598 /* percent.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD12F1BD797BD00A33598 /* percent.png */; };
+		7D6CD1441BD797BD00A33598 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1301BD797BD00A33598 /* plus.png */; };
+		7D6CD1451BD797BD00A33598 /* plus-minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1311BD797BD00A33598 /* plus-minus.png */; };
+		7D6CD1471BD797D100A33598 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1461BD797D100A33598 /* dot.png */; };
 		7DE5ADB11BD5142700DBBB00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5ADB01BD5142700DBBB00 /* main.m */; };
 		7DE5ADB41BD5142700DBBB00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5ADB31BD5142700DBBB00 /* AppDelegate.m */; };
 		7DE5ADB71BD5142700DBBB00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5ADB61BD5142700DBBB00 /* ViewController.m */; };
@@ -16,25 +35,6 @@
 		7DE5ADBC1BD5142700DBBB00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADBB1BD5142700DBBB00 /* Images.xcassets */; };
 		7DE5ADBF1BD5142700DBBB00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADBD1BD5142700DBBB00 /* LaunchScreen.xib */; };
 		7DE5ADCB1BD5142700DBBB00 /* Handy_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5ADCA1BD5142700DBBB00 /* Handy_CalculatorTests.m */; };
-		7DE5ADE81BD5185F00DBBB00 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD51BD5185F00DBBB00 /* Clear.png */; };
-		7DE5ADE91BD5185F00DBBB00 /* divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD61BD5185F00DBBB00 /* divide.png */; };
-		7DE5ADEA1BD5185F00DBBB00 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD71BD5185F00DBBB00 /* dot.png */; };
-		7DE5ADEB1BD5185F00DBBB00 /* equal to.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD81BD5185F00DBBB00 /* equal to.png */; };
-		7DE5ADEC1BD5185F00DBBB00 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADD91BD5185F00DBBB00 /* minus.png */; };
-		7DE5ADED1BD5185F00DBBB00 /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDA1BD5185F00DBBB00 /* multiply.png */; };
-		7DE5ADEE1BD5185F00DBBB00 /* number-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDB1BD5185F00DBBB00 /* number-0.png */; };
-		7DE5ADEF1BD5185F00DBBB00 /* number-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDC1BD5185F00DBBB00 /* number-1.png */; };
-		7DE5ADF01BD5185F00DBBB00 /* number-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDD1BD5185F00DBBB00 /* number-2.png */; };
-		7DE5ADF11BD5185F00DBBB00 /* number-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDE1BD5185F00DBBB00 /* number-3.png */; };
-		7DE5ADF21BD5185F00DBBB00 /* number-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADDF1BD5185F00DBBB00 /* number-4.png */; };
-		7DE5ADF31BD5185F00DBBB00 /* number-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE01BD5185F00DBBB00 /* number-5.png */; };
-		7DE5ADF41BD5185F00DBBB00 /* number-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE11BD5185F00DBBB00 /* number-6.png */; };
-		7DE5ADF51BD5185F00DBBB00 /* number-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE21BD5185F00DBBB00 /* number-7.png */; };
-		7DE5ADF61BD5185F00DBBB00 /* number-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE31BD5185F00DBBB00 /* number-8.png */; };
-		7DE5ADF71BD5185F00DBBB00 /* number-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE41BD5185F00DBBB00 /* number-9.png */; };
-		7DE5ADF81BD5185F00DBBB00 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE51BD5185F00DBBB00 /* plus.png */; };
-		7DE5ADF91BD5185F00DBBB00 /* plus-minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADE61BD5185F00DBBB00 /* plus-minus.png */; };
-		7DE5ADFB1BD51CB200DBBB00 /* percent.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5ADFA1BD51CB200DBBB00 /* percent.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7DDE80211BD660EB00A6D266 /* backImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backImage.jpg; path = ../../../../Downloads/backImage.jpg; sourceTree = "<group>"; };
-		7DDE802B1BD6728D00A6D266 /* calc-ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calc-ios.png"; path = "../../../../Downloads/calc-ios.png"; sourceTree = "<group>"; };
+		7D6CD11E1BD797BD00A33598 /* backImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backImage.jpg; sourceTree = "<group>"; };
+		7D6CD11F1BD797BD00A33598 /* calc-ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calc-ios.png"; sourceTree = "<group>"; };
+		7D6CD1201BD797BD00A33598 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		7D6CD1211BD797BD00A33598 /* divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divide.png; sourceTree = "<group>"; };
+		7D6CD1221BD797BD00A33598 /* equal to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equal to.png"; sourceTree = "<group>"; };
+		7D6CD1231BD797BD00A33598 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		7D6CD1241BD797BD00A33598 /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiply.png; sourceTree = "<group>"; };
+		7D6CD1251BD797BD00A33598 /* number-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-0.png"; sourceTree = "<group>"; };
+		7D6CD1261BD797BD00A33598 /* number-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-1.png"; sourceTree = "<group>"; };
+		7D6CD1271BD797BD00A33598 /* number-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-2.png"; sourceTree = "<group>"; };
+		7D6CD1281BD797BD00A33598 /* number-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-3.png"; sourceTree = "<group>"; };
+		7D6CD1291BD797BD00A33598 /* number-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-4.png"; sourceTree = "<group>"; };
+		7D6CD12A1BD797BD00A33598 /* number-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-5.png"; sourceTree = "<group>"; };
+		7D6CD12B1BD797BD00A33598 /* number-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-6.png"; sourceTree = "<group>"; };
+		7D6CD12C1BD797BD00A33598 /* number-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-7.png"; sourceTree = "<group>"; };
+		7D6CD12D1BD797BD00A33598 /* number-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-8.png"; sourceTree = "<group>"; };
+		7D6CD12E1BD797BD00A33598 /* number-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "number-9.png"; sourceTree = "<group>"; };
+		7D6CD12F1BD797BD00A33598 /* percent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = percent.png; sourceTree = "<group>"; };
+		7D6CD1301BD797BD00A33598 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		7D6CD1311BD797BD00A33598 /* plus-minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-minus.png"; sourceTree = "<group>"; };
+		7D6CD1461BD797D100A33598 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
 		7DE5ADAB1BD5142700DBBB00 /* Handy Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handy Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE5ADAF1BD5142700DBBB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DE5ADB01BD5142700DBBB00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,25 +82,6 @@
 		7DE5ADC41BD5142700DBBB00 /* Handy CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handy CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE5ADC91BD5142700DBBB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DE5ADCA1BD5142700DBBB00 /* Handy_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handy_CalculatorTests.m; sourceTree = "<group>"; };
-		7DE5ADD51BD5185F00DBBB00 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Clear.png; path = ../../../../Downloads/Clear.png; sourceTree = "<group>"; };
-		7DE5ADD61BD5185F00DBBB00 /* divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = divide.png; path = ../../../../Downloads/divide.png; sourceTree = "<group>"; };
-		7DE5ADD71BD5185F00DBBB00 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dot.png; path = ../../../../Downloads/dot.png; sourceTree = "<group>"; };
-		7DE5ADD81BD5185F00DBBB00 /* equal to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "equal to.png"; path = "../../../../Downloads/equal to.png"; sourceTree = "<group>"; };
-		7DE5ADD91BD5185F00DBBB00 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minus.png; path = ../../../../Downloads/minus.png; sourceTree = "<group>"; };
-		7DE5ADDA1BD5185F00DBBB00 /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multiply.png; path = ../../../../Downloads/multiply.png; sourceTree = "<group>"; };
-		7DE5ADDB1BD5185F00DBBB00 /* number-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-0.png"; path = "../../../../Downloads/number-0.png"; sourceTree = "<group>"; };
-		7DE5ADDC1BD5185F00DBBB00 /* number-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-1.png"; path = "../../../../Downloads/number-1.png"; sourceTree = "<group>"; };
-		7DE5ADDD1BD5185F00DBBB00 /* number-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-2.png"; path = "../../../../Downloads/number-2.png"; sourceTree = "<group>"; };
-		7DE5ADDE1BD5185F00DBBB00 /* number-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-3.png"; path = "../../../../Downloads/number-3.png"; sourceTree = "<group>"; };
-		7DE5ADDF1BD5185F00DBBB00 /* number-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-4.png"; path = "../../../../Downloads/number-4.png"; sourceTree = "<group>"; };
-		7DE5ADE01BD5185F00DBBB00 /* number-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-5.png"; path = "../../../../Downloads/number-5.png"; sourceTree = "<group>"; };
-		7DE5ADE11BD5185F00DBBB00 /* number-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-6.png"; path = "../../../../Downloads/number-6.png"; sourceTree = "<group>"; };
-		7DE5ADE21BD5185F00DBBB00 /* number-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-7.png"; path = "../../../../Downloads/number-7.png"; sourceTree = "<group>"; };
-		7DE5ADE31BD5185F00DBBB00 /* number-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-8.png"; path = "../../../../Downloads/number-8.png"; sourceTree = "<group>"; };
-		7DE5ADE41BD5185F00DBBB00 /* number-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-9.png"; path = "../../../../Downloads/number-9.png"; sourceTree = "<group>"; };
-		7DE5ADE51BD5185F00DBBB00 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../../../../Downloads/plus.png; sourceTree = "<group>"; };
-		7DE5ADE61BD5185F00DBBB00 /* plus-minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus-minus.png"; path = "../../../../Downloads/plus-minus.png"; sourceTree = "<group>"; };
-		7DE5ADFA1BD51CB200DBBB00 /* percent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = percent.png; path = ../../../../Downloads/percent.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,29 +138,29 @@
 		7DE5ADAE1BD5142700DBBB00 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D6CD11E1BD797BD00A33598 /* backImage.jpg */,
+				7D6CD11F1BD797BD00A33598 /* calc-ios.png */,
+				7D6CD1201BD797BD00A33598 /* Clear.png */,
+				7D6CD1211BD797BD00A33598 /* divide.png */,
+				7D6CD1461BD797D100A33598 /* dot.png */,
+				7D6CD1221BD797BD00A33598 /* equal to.png */,
+				7D6CD1231BD797BD00A33598 /* minus.png */,
+				7D6CD1241BD797BD00A33598 /* multiply.png */,
+				7D6CD1251BD797BD00A33598 /* number-0.png */,
+				7D6CD1261BD797BD00A33598 /* number-1.png */,
+				7D6CD1271BD797BD00A33598 /* number-2.png */,
+				7D6CD1281BD797BD00A33598 /* number-3.png */,
+				7D6CD1291BD797BD00A33598 /* number-4.png */,
+				7D6CD12A1BD797BD00A33598 /* number-5.png */,
+				7D6CD12B1BD797BD00A33598 /* number-6.png */,
+				7D6CD12C1BD797BD00A33598 /* number-7.png */,
+				7D6CD12D1BD797BD00A33598 /* number-8.png */,
+				7D6CD12E1BD797BD00A33598 /* number-9.png */,
+				7D6CD12F1BD797BD00A33598 /* percent.png */,
+				7D6CD1301BD797BD00A33598 /* plus.png */,
+				7D6CD1311BD797BD00A33598 /* plus-minus.png */,
 				7DE5ADAF1BD5142700DBBB00 /* Info.plist */,
 				7DE5ADB01BD5142700DBBB00 /* main.m */,
-				7DDE80211BD660EB00A6D266 /* backImage.jpg */,
-				7DDE802B1BD6728D00A6D266 /* calc-ios.png */,
-				7DE5ADD51BD5185F00DBBB00 /* Clear.png */,
-				7DE5ADD61BD5185F00DBBB00 /* divide.png */,
-				7DE5ADD71BD5185F00DBBB00 /* dot.png */,
-				7DE5ADD81BD5185F00DBBB00 /* equal to.png */,
-				7DE5ADD91BD5185F00DBBB00 /* minus.png */,
-				7DE5ADDA1BD5185F00DBBB00 /* multiply.png */,
-				7DE5ADDB1BD5185F00DBBB00 /* number-0.png */,
-				7DE5ADDC1BD5185F00DBBB00 /* number-1.png */,
-				7DE5ADDD1BD5185F00DBBB00 /* number-2.png */,
-				7DE5ADDE1BD5185F00DBBB00 /* number-3.png */,
-				7DE5ADDF1BD5185F00DBBB00 /* number-4.png */,
-				7DE5ADE01BD5185F00DBBB00 /* number-5.png */,
-				7DE5ADE11BD5185F00DBBB00 /* number-6.png */,
-				7DE5ADE21BD5185F00DBBB00 /* number-7.png */,
-				7DE5ADE31BD5185F00DBBB00 /* number-8.png */,
-				7DE5ADE41BD5185F00DBBB00 /* number-9.png */,
-				7DE5ADFA1BD51CB200DBBB00 /* percent.png */,
-				7DE5ADE51BD5185F00DBBB00 /* plus.png */,
-				7DE5ADE61BD5185F00DBBB00 /* plus-minus.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,30 +262,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DDE802C1BD6728D00A6D266 /* calc-ios.png in Resources */,
-				7DDE80231BD660EB00A6D266 /* backImage.jpg in Resources */,
+				7D6CD1321BD797BD00A33598 /* backImage.jpg in Resources */,
+				7D6CD1351BD797BD00A33598 /* divide.png in Resources */,
+				7D6CD13C1BD797BD00A33598 /* number-3.png in Resources */,
+				7D6CD1371BD797BD00A33598 /* minus.png in Resources */,
+				7D6CD1361BD797BD00A33598 /* equal to.png in Resources */,
+				7D6CD1341BD797BD00A33598 /* Clear.png in Resources */,
+				7D6CD13F1BD797BD00A33598 /* number-6.png in Resources */,
+				7D6CD1331BD797BD00A33598 /* calc-ios.png in Resources */,
+				7D6CD1391BD797BD00A33598 /* number-0.png in Resources */,
+				7D6CD1471BD797D100A33598 /* dot.png in Resources */,
 				7DE5ADBA1BD5142700DBBB00 /* Main.storyboard in Resources */,
-				7DE5ADEA1BD5185F00DBBB00 /* dot.png in Resources */,
-				7DE5ADF11BD5185F00DBBB00 /* number-3.png in Resources */,
-				7DE5ADEC1BD5185F00DBBB00 /* minus.png in Resources */,
-				7DE5ADEB1BD5185F00DBBB00 /* equal to.png in Resources */,
-				7DE5ADF81BD5185F00DBBB00 /* plus.png in Resources */,
-				7DE5ADF91BD5185F00DBBB00 /* plus-minus.png in Resources */,
+				7D6CD1421BD797BD00A33598 /* number-9.png in Resources */,
+				7D6CD1431BD797BD00A33598 /* percent.png in Resources */,
+				7D6CD1381BD797BD00A33598 /* multiply.png in Resources */,
+				7D6CD13E1BD797BD00A33598 /* number-5.png in Resources */,
+				7D6CD1451BD797BD00A33598 /* plus-minus.png in Resources */,
+				7D6CD13D1BD797BD00A33598 /* number-4.png in Resources */,
+				7D6CD1411BD797BD00A33598 /* number-8.png in Resources */,
 				7DE5ADBF1BD5142700DBBB00 /* LaunchScreen.xib in Resources */,
-				7DE5ADF41BD5185F00DBBB00 /* number-6.png in Resources */,
-				7DE5ADE91BD5185F00DBBB00 /* divide.png in Resources */,
-				7DE5ADEE1BD5185F00DBBB00 /* number-0.png in Resources */,
+				7D6CD13A1BD797BD00A33598 /* number-1.png in Resources */,
 				7DE5ADBC1BD5142700DBBB00 /* Images.xcassets in Resources */,
-				7DE5ADF71BD5185F00DBBB00 /* number-9.png in Resources */,
-				7DE5ADED1BD5185F00DBBB00 /* multiply.png in Resources */,
-				7DE5ADF31BD5185F00DBBB00 /* number-5.png in Resources */,
-				7DE5ADF21BD5185F00DBBB00 /* number-4.png in Resources */,
-				7DE5ADF61BD5185F00DBBB00 /* number-8.png in Resources */,
-				7DE5ADFB1BD51CB200DBBB00 /* percent.png in Resources */,
-				7DE5ADEF1BD5185F00DBBB00 /* number-1.png in Resources */,
-				7DE5ADE81BD5185F00DBBB00 /* Clear.png in Resources */,
-				7DE5ADF51BD5185F00DBBB00 /* number-7.png in Resources */,
-				7DE5ADF01BD5185F00DBBB00 /* number-2.png in Resources */,
+				7D6CD1441BD797BD00A33598 /* plus.png in Resources */,
+				7D6CD1401BD797BD00A33598 /* number-7.png in Resources */,
+				7D6CD13B1BD797BD00A33598 /* number-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

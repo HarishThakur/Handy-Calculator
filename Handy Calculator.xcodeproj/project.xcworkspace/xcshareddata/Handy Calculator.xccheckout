@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7EFFDE0F-1BE5-46E9-AE8F-50AF3CAD508B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Handy Calculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7F5695A9EC94F6B7627B013A8724B066C617C912</key>
+		<string>https://github.com/HarishThakur/Handy-Calculator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Handy Calculator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7F5695A9EC94F6B7627B013A8724B066C617C912</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/HarishThakur/Handy-Calculator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7F5695A9EC94F6B7627B013A8724B066C617C912</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7F5695A9EC94F6B7627B013A8724B066C617C912</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Handy%20Calculator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
